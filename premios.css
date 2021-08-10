@@ -1,0 +1,79 @@
+:root {
+    --azul: #123B61;
+    --amarillo: #FFD91E;
+    --azuloscuro: #0c2945;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--azuloscuro);
+    background-image: url(imagenes/Dahat-web-Elem-Header.png);
+    max-width: 100%;
+    
+}
+
+.cabecera {
+    margin-top: 0;
+    
+}
+.cabecera {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+.contenedor {
+    max-width: 600px;
+    width: 100%;
+    padding: 100px , 100px , 100px , 100px;
+}
+.video {
+    display: flex;
+    align-content: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+@media (max-width: 800px) {
+    
+    
+    .logo {
+        max-width: 100%;
+    }
+   .cabecera, .contenedor {
+        max-width: 100%;
+
+    }
+    
+
+}
+@media (max-width: 767px) {
+   
+   .logo {
+       max-width: 100%;
+   }
+   .cabecera, .contenedor{
+       max-width: 100%;
+
+   }
+  
+
+}
+@media (max-width: 400px){
+   
+   .logo {
+       max-width: 100%;
+   }
+   .cabecera, .contenedor {
+       max-width: 100%;
+
+   }
+   
+
+} 
